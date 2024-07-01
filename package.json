@@ -1,0 +1,26 @@
+{
+  "name": "simple-server",
+  "version": "1.0.0",
+  "description": "a simple server to biodata of a programmer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js, npm start",
+    "start": "nodemon index.js",
+    "serve": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "malikobansa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "geoip-lite": "^1.4.10",
+    "http": "^0.0.1-security",
+    "ip": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
